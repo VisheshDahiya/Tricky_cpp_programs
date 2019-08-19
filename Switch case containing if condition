@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int v=10;
+    switch(v)
+    {
+        case 10: cout<<"10";v++;
+        //break;
+        if(v==11)
+        {
+            case 11: cout<<"If worked.";
+            break;
+        }
+        case 12: cout<<"12";
+        break;
+        default:cout<<"Invalid!";
+    }
+
+    return 0;
+}
+
+//Output:  10If worked.
+//if int v=11; and there is no v++ statement in line 8 then it will simply print 'If worked'.
