@@ -1,0 +1,16 @@
+#1
+
+int main()
+{
+    char x[]="\0";
+    if(cout<<x)
+    {
+        cout<<"OK";
+    }
+    else
+    {
+        cout<<"Forget it.";
+    }
+    return 0;
+}
+//Output: OK (because cout<<x will print nothing and will be executed and therefore 1 is returned from that. Now statements of if will be processed.)
