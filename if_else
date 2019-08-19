@@ -1,0 +1,18 @@
+#1
+
+int main()
+{
+    int x=3,y=5;
+    if(x==3)
+    {
+        cout<<"OK";
+    }
+    else;
+    {
+        cout<<"Forget it.";
+    }
+    return 0;
+}
+//Output: OKForget it.
+Because if condition will work perfectly but else condition is terminated and block after else is independent
+therefore it will print 'Forget it.' as output.
