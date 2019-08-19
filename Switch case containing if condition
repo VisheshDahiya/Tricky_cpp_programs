@@ -1,3 +1,5 @@
+#1 If condition inside switch.
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -22,3 +24,17 @@ int main()
 
 //Output:  10If worked.
 //if int v=11; and there is no v++ statement in line 8 then it will simply print 'If worked'.
+
+#2 NO BREAK AT ALL.
+int v=10;
+    switch(v)
+    {
+        case 10: cout<<"10";
+        case 11: cout<<" 11 ";
+        case 12: cout<<"12";
+        default:cout<<" Invalid!";
+    }
+ Output: 10 11 12 Invalid!
+ //Means if there is no break at all then all the cases will be executed including default statement.
+ 
+ #3
