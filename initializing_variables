@@ -9,3 +9,8 @@ int main()
     return 0;
 }
 //Output: 13 4 9
+
+#2
+
+char arr[8]="rectangle";
+//Output: Error! initializer string for array is too long.
