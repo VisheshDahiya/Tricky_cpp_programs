@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+enum days{sunday,monday,tuesday,wednesday,thursday};
+using namespace std;
+int main()
+{
+cout<<monday;
+return 0;
+}
+//Output: 1 (Index starts from zero. Therefore, monday is assigned value 1.)
+If enum days is declared like enum days{sunday=6,monday};
+then output for monday is 7.
