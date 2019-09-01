@@ -1,0 +1,4 @@
+#1
+Switch vs if else
+->Switch is fast when thera are many number of cases. The compiler can do this because it knows that the case constants are all the same type and simply must be compared for equality with the switch expression, while in case of if expressions, the compiler has no such knowledge.
+->while if else is better for boolean values.
